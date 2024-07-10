@@ -2,3 +2,31 @@
 *{
     font-family: "Work Sans", sans-serif;
 }
+/* header related styles */
+header{
+    background-color: #FF900E10;
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #131313;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style-type: none;
+    margin-right: 30px;
+    font-size: 1rem;
+    font-weight: 500px;
+}
+a{
+    text-decoration: none;
+    color: #424242;
+}
